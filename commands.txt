@@ -3,3 +3,11 @@ export FLASK_DEBUG=1
 
 flask run
 flask run --host 0.0.0.0
+
+
+flask shell
+
+
+export MAIL_SERVER=smtp.googlemail.com
+export MAIL_PORT=587
+export MAIL_USE_TLS=1
